@@ -1,0 +1,91 @@
+
+#product{
+    .product-body{
+        position: relative;
+        .product-img{
+            display: none;
+            img{
+                width: 100%;
+                transition: all .3s ease;
+            }
+            
+        }
+        .product-img.active{
+            display: block;
+        }
+        .product-img-hover{
+            position: absolute;
+            top:0;
+            display: none;
+            
+            img{
+                width: 100%;
+                
+            }
+        }
+        .product-icon{
+            position: absolute;
+            z-index: 1;
+            top: 50%;
+            left: 10%;
+            transition: .5s;
+            transform: translateY(-50%);
+            a{
+                display: inline-block;
+            }
+            a,form button{
+                border: 1px solid #fff;
+                width: 44px;
+                height: 44px;
+                line-height: 29px;
+                border-radius: 50%;
+                padding: 7px;
+                background-color: #fff;
+                box-shadow: 0 15px 25px #05030314;
+                color:#000;
+                text-align: center;
+                margin-bottom: 7px;
+            }
+        }
+        &:hover .product-img-hover{
+            display: block;
+        }
+
+        .title-product a{
+            text-decoration: none;
+            line-height: 1.2;
+            font-size: 18px;
+            font-weight: 500;
+            color: #494949;
+            letter-spacing: 1px;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .info-product span{
+            font-size: 16px;
+            font-weight: 500;
+            color: #a6a6a6;
+
+        }
+        .product-color{
+            display: flex;
+            .color{
+                .circle{
+                    border-radius: 50%;
+                    border: 1px solid #f0f0f0;
+                    width: 15px;
+                    height: 15px;
+                    display: inline-block;
+                    margin-right: 5px;
+                    transition: .3s;
+                    cursor: pointer;
+                    &:hover{
+                        transform: scale(1.2);
+                    }
+                }
+
+            }
+        }
+    }
+    
+}

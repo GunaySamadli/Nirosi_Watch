@@ -1,0 +1,44 @@
+
+.slider{
+    padding: 3rem 2rem;
+    background-image: url('https://cdn.shopify.com/s/files/1/0327/6426/4588/files/bg-slideshow2.jpg?v=1581477209');
+    .slider-img{
+        img{
+            width: 100%;
+           
+        }
+    }
+    .slider-body{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 300px;
+        margin: auto;
+        span{
+            color: #e5ae49;
+            letter-spacing: 2px;
+            font-weight: 300;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        h3{
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
+        p{
+            color: #ccc;
+            margin-bottom: 20px;
+        }
+
+        .slider-button{
+            padding: 10px 0;
+            text-align: center;
+            color: white;
+            font-weight: 400;
+            text-decoration: none;
+            font-size: 18px;
+            background-color: #000;
+            letter-spacing: 1px;
+        }
+    }
+}
