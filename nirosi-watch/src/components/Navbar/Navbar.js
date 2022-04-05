@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch, faUser, faCartShopping, faBars } from '@fortawesome/free-solid-svg-icons';
+import { faSearch,  faCartShopping, faBars } from '@fortawesome/free-solid-svg-icons';
 import './index.scss'
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
 import Button from '@mui/material/Button';
 import List from '@mui/material/List';
-import Modal from '../Modal/Modal.js'
+import Login from '../Login&Register/Modal.js'
 
 const Navbar = () => {
   const [state, setState] = React.useState({
@@ -87,8 +87,7 @@ const Navbar = () => {
           </div>
           <div className="nav-icon">
             <Link to="/">
-              
-              <Modal/>
+              <Login />
             </Link>
           </div>
           <div className="nav-icon">
@@ -127,7 +126,7 @@ const Navbar = () => {
             </div>
             <div className="nav-icon">
               <Link to="/">
-                <FontAwesomeIcon icon={faUser} />
+                <Login />
               </Link>
             </div>
             <div className="nav-icon">
