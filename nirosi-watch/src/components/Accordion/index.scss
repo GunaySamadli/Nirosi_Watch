@@ -1,0 +1,25 @@
+.service-accordion{
+    background-image: url('https://cdn.shopify.com/s/files/1/0327/6426/4588/files/bg-dervicev1.jpg?v=1581478387');
+    background-size: cover;
+    background-position:center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+    h3{
+        color: #fff;
+        text-align: center;
+        font-size: 38px;
+        letter-spacing: 3px;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+    .service-img{
+        img{
+           width: 100%;
+        }
+    }
+    
+}

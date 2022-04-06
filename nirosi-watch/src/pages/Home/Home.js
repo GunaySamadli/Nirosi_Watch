@@ -5,6 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Slider from '../../components/Slider/Slider.js';
 import './home.scss'
 import Product from '../../components/Product/Product.js';
+import Accordion from '../../components/Accordion/Accordion.js';
 
 
 
@@ -25,6 +26,7 @@ function Home() {
                 </div>
             </div>
             <Product/>
+            <Accordion/>
         </>
 
     )
